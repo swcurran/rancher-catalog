@@ -24,11 +24,11 @@ Reference Links:
  Do some trickery with Crashplan to authenticate the server with your Crashplan account.
  
  * On your Crashplan Desktop machine, make a backup of the current .ui_info config file located:
- ** Linux: /var/crashplan/data/id/.ui_info
- ** OSX: /Library/Application Support/CrashPlan/.ui_info
- ** Windows: C:\ProgramData\CrashPlan\.ui_info
+ ..* Linux: /var/crashplan/data/id/.ui_info
+ ..* OSX: /Library/Application Support/CrashPlan/.ui_info
+ ..* Windows: C:\ProgramData\CrashPlan\.ui_info
  * Log into your new Crashplan container display and copy the text of it's .ui_info located:
- ** /var/crashplan/data/id/.ui_info
+ ..* /var/crashplan/data/id/.ui_info
  * Paste that text into the .ui_info file on your Desktop machine.
  * Update that file and replace IP (should be 0.0.0.0 or 127.0.0.1) at the end of the first line in that file with the IP of your docker host.
  * Start your local CrashPlan GUI - you should be prompted to log into your Crashplan account.
