@@ -1,6 +1,6 @@
 .catalog:
   name: "Crashplan"
-  version: "v4.8.0"
+  version: "v1.0.0"
   description: "Headless backup server powered by Code 42's Crashplan"
   uuid: crashplan-0
   minimum_rancher_version: v0.51.0
