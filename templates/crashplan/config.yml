@@ -1,0 +1,7 @@
+name: Crashplan
+description: |
+  A headless backup solution based on Code 42's Crashplan project.
+version: v4.8.0
+category: Backups
+maintainer: Stephen Curran <swcurran@gmail.com>
+
