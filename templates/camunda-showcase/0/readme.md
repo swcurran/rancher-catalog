@@ -11,7 +11,7 @@ Reference Links:
  
 ### Usage:
 
- Select Crashplan from the Rancher Catalog. 
+ Select Camunda Showcase from the Rancher Catalog. 
  
  Click deploy.
  

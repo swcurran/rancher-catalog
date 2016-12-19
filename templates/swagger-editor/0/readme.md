@@ -1,21 +1,21 @@
-# Camunda Showcase
+# Swagger Editor
 
 ### Info:
 
-Creates an instance of the Camunda Business Process Workflow Engine Showcase application
+Creates an instance of the swagger editor for specifying/browsing APIs
 
 Reference Links:
 
-* [Link to Camunda.org](https://camunda.org/)
-* [Link to the Camunda Docker installation instructions](https://github.com/camunda/docker-camunda-bpm-platform)
+* [Link to swagger.io](http://swagger.io/)
+* [Link to information about the swagger editor](http://swagger.io/swagger-editor/)
  
 ### Usage:
 
- Select Crashplan from the Rancher Catalog. 
+ Select Swagger Editor from the Rancher Catalog. 
  
  Click deploy.
  
- Access the demo application at: <dockerhost>:8085/camunda-welcome
+ Access the demo application at: <dockerhost>:8081
  
  Congratulations!
  
