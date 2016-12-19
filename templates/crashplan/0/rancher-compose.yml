@@ -4,17 +4,4 @@
   description: "Headless backup server powered by Code 42's Crashplan"
   uuid: crashplan-0
   minimum_rancher_version: v0.51.0
-  questions:
-    - variable: public_ip
-      description: "Internal public IP - the IP of the Docker Host"
-      label: "Public IP Address"
-      required: true
-      default: "0.0.0.0"
-      type: "string"
-    - variable: public_port
-      description: "Crashplan backup port to use on the Docker Host"
-      label: "Public Port"
-      required: true
-      default: "4242"
-      type: "int"
 crashplan:

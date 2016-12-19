@@ -13,9 +13,6 @@ crashplan:
   ports:
   - 4242:4242/tcp
   - 4243:4243/tcp
-  environment:
-  - PUBLIC_IP=${public_ip}
-  - PUBLIC_PORT=${public_port}
   labels:
     io.rancher.sidekicks: crashplan-init
   image: jrcs/crashplan
