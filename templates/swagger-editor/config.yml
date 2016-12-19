@@ -1,0 +1,7 @@
+name: Swagger Editor
+description: |
+  Creates a running instance of the Swagger Editor
+version: v1.0.0
+category: Application
+maintainer: Stephen Curran <swcurran@gmail.com>
+

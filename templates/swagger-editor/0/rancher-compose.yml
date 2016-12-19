@@ -1,0 +1,7 @@
+.catalog:
+  name: "Swagger Editor"
+  version: "v1.0.0"
+  description: "Runs an instance of the swagger editor"
+  uuid: swagger-editor-0
+  minimum_rancher_version: v0.51.0
+swagger-editor:
