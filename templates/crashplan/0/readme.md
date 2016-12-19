@@ -8,6 +8,7 @@ Reference Links:
 
 * [Link to Code 42's support page on headless Crashplan servers](https://support.code42.com/CrashPlan/4/Configuring/Using_CrashPlan_On_A_Headless_Computer)
 * [Link to base Docker image and instructions](https://github.com/JrCs/docker-crashplan)
+  * The docker image being used supports auto-upgrades of Crashplan as they become available from Code 42.
 * [Link to useful article for running dockerized CrashPlan on Synology NAS](https://miketabor.com/run-crashplan-docker-synology-nas/)
  
 ### Usage:
@@ -31,13 +32,10 @@ Reference Links:
  5. Start the Local Machine CrashPlan GUI, which will now be accessing the instance of Crashplan on the Headless Crashplan server.
     * If all is good, you should be prompted to log into your Crashplan account.
     * You don't want to adopt the location as a backup, so X out of that option
-    * Go into settings and at least set a friendly name for this computer
-    * In the settings, you might also want click into "Inbound backup..." drill down and get backup code for this Crashplan instance
+    * In the settings, you might want click into "Inbound backup..." drill down and get backup code for this Crashplan instance
  6. Close the Crashplan GUI.
- 7. Restore the backup of the .ui_info file you made on the first step.
- 8. Open up the Crashplan GUI - now back running on your local machine.
- 
- You should now have the new computer available as a destination for backups of your Local Machine.
+ 7. On your Local Machine restore the backup of the .ui_info file you made on the first step.
+ 8. Open up the Crashplan GUI - it should now be back running on your local machine with the Headless Crashplan running on Rancher available for use.
  
  Congratulations!
  
