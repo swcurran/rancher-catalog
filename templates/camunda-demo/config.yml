@@ -1,0 +1,7 @@
+name: Camunda Showcase
+description: |
+  A showcase demo of the Camunda BPMN Workflow Engine
+version: v1.0.0
+category: Application
+maintainer: Stephen Curran <swcurran@gmail.com>
+

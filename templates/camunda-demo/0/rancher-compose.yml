@@ -1,0 +1,7 @@
+.catalog:
+  name: "Camunda Showcase"
+  version: "v1.0.0"
+  description: "The Camunda Business Process Workflow Engine Showcase application"
+  uuid: camunda-showcase-0
+  minimum_rancher_version: v0.51.0
+camunda-showcase:
