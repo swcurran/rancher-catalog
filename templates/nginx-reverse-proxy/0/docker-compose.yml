@@ -3,7 +3,7 @@ nginxrp-init:
     io.rancher.container.start_once: 'true'
   command:
   - /bin/true
-  image: nginx
+  image: helder/nginx-extras
   volumes:
   - /etc/nginx
 nginxrp:
@@ -11,6 +11,6 @@ nginxrp:
   - 8989:80
   labels:
     io.rancher.sidekicks: nginxrp-init
-  image: nginx
+  image: helder/nginx-extras
   volumes_from:
   - nginxrp-init
