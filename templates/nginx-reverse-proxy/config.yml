@@ -1,0 +1,7 @@
+name: NGINX Reverse Proxy
+description: |
+  A reverse proxy for sites on docker based on NGINX
+version: v1.0.0
+category: Networking
+maintainer: Stephen Curran <swcurran@gmail.com>
+

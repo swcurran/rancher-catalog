@@ -1,0 +1,7 @@
+.catalog:
+  name: "NGINX Reverse Proxy"
+  version: "v1.0.0"
+  description: "NGINX Reverse Proxy for Rancher sites"
+  uuid: nginxrp-0
+  minimum_rancher_version: v0.51.0
+nginxrp:
