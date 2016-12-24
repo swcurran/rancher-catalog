@@ -8,7 +8,7 @@ nginxrp-init:
   - /etc/nginx
 nginxrp:
   ports:
-    8989:80
+  - 8989:80
   labels:
     io.rancher.sidekicks: crashplan-init
   image: nginx
