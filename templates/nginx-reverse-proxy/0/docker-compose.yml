@@ -10,7 +10,7 @@ nginxrp:
   ports:
   - 8989:80
   labels:
-    io.rancher.sidekicks: crashplan-init
+    io.rancher.sidekicks: nginxrp-init
   image: nginx
   volumes_from:
   - nginxrp-init
