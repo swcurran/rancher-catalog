@@ -1,0 +1,7 @@
+name: Camunda Showcase
+description: |
+  An instance of the open source Kaa IoT Platform
+version: v1.0.0
+category: Application
+maintainer: Stephen Curran <swcurran@gmail.com>
+
